@@ -21,10 +21,7 @@ export default {
     'react', 
     'react-dom',
     'react-proptypes',
-    'lodash',
-    '@material-ui/core',
-    'react-datetime',
-    'axios'
+    '@material-ui/core'
   ],
   plugins: [
     resolve({ preferBuiltins: false }),
