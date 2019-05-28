@@ -48,7 +48,7 @@ export default {
       exclude: [
         'node_modules/**'
       ],
-      babelrc: false
+      babelrc: true
     }),
     commonjs({
       include: 'node_modules/**',
