@@ -47,7 +47,8 @@ export default {
       plugins: ["@babel/plugin-proposal-class-properties",  "@babel/plugin-proposal-export-default-from"],
       exclude: [
         'node_modules/**'
-      ]
+      ],
+      babelrc: false
     }),
     commonjs({
       include: 'node_modules/**',
