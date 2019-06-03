@@ -2,8 +2,18 @@ import React from 'react'
 import List from './index.js'
 import renderer from 'react-test-renderer'
 
-test('Is displaying Hello world', () => {
-  const component = renderer.create(<List />)
-  let tree = component.toJSON()
-  expect(tree).toMatchSnapshot()
+describe('Snapshot testing and is everything rendering ', () => {
+  test('Is snapshot the same', () => {
+    const component = renderer.create(<List />)
+    let tree = component.toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+
+  test('Is hello world the text showing in front', () => {
+    const component = renderer.create(<List />)
+    const root = component.root
+    const title = root.findByProps({ className: 'title' })
+
+    expect(title.props.children).toBe('Hello world')
+  })
 })

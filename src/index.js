@@ -4,7 +4,7 @@ class List extends Component {
   render() {
     return (
       <React.Fragment>
-        Hello world
+        <div className='title'>Hello world</div>
       </React.Fragment>
     )
   }
