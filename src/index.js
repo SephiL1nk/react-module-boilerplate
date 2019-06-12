@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class List extends Component {
+class Boilerplate extends Component {
   render() {
     return (
       <React.Fragment>
@@ -10,4 +10,4 @@ class List extends Component {
   }
 }
 
-export default List
+export default Boilerplate

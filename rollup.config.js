@@ -21,7 +21,8 @@ export default {
     'react', 
     'react-dom',
     'react-proptypes',
-    '@material-ui/core'
+    '@material-ui/core',
+    'prop-types'
   ],
   plugins: [
     resolve({ preferBuiltins: false }),

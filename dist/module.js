@@ -83,7 +83,9 @@ function (_Component) {
   _createClass(List, [{
     key: "render",
     value: function render() {
-      return React.createElement(React.Fragment, null, "Hello world");
+      return React.createElement(React.Fragment, null, React.createElement("div", {
+        className: "title"
+      }, "Hello world"));
     }
   }]);
 
