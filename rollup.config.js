@@ -22,6 +22,7 @@ export default {
     'react-dom',
     'react-proptypes',
     '@material-ui/core',
+    '@material-ui/styles',
     'prop-types'
   ],
   plugins: [

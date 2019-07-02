@@ -47,16 +47,17 @@
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.5.1",
     "sass-loader": "^7.1.0",
+    "@material-ui/core": "^4.0.0",
     "style-loader": "^0.23.1"
   },
   "dependencies": {
-    "@material-ui/core": "^4.0.0",
     "babel-core": "^7.0.0-bridge.0",
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-proptypes": "^1.0.0"
+    "react-proptypes": "^1.0.0",
+    "@material-ui/core": "^4.0.0"
   }
 }
